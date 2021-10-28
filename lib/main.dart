@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Google Map Flutter Lib'),
-          backgroundColor: Colors.green[700],
+          backgroundColor: Colors.red[700],
         ),
         body: GoogleMap(
           onMapCreated: _onMapCreated,
