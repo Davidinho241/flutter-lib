@@ -200,6 +200,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "geocoding",
+      "rootUri": "file:///home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/geocoding-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "geocoding_platform_interface",
+      "rootUri": "file:///home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/geocoding_platform_interface-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "glob",
       "rootUri": "file:///home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/glob-2.0.2",
       "packageUri": "lib/",
@@ -260,6 +272,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "io",
       "rootUri": "file:///home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/io-1.0.3",
       "packageUri": "lib/",
@@ -286,6 +304,24 @@
     {
       "name": "json_serializable",
       "rootUri": "file:///home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/json_serializable-5.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "location",
+      "rootUri": "file:///home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/location-4.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "location_platform_interface",
+      "rootUri": "file:///home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/location_platform_interface-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "location_web",
+      "rootUri": "file:///home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/location_web-3.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -467,10 +503,10 @@
       "name": "lib",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.10"
     }
   ],
-  "generated": "2021-10-28T13:10:07.887452Z",
+  "generated": "2021-10-29T09:31:58.335361Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }

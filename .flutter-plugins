@@ -1,4 +1,7 @@
 # This is a generated file; do not edit or check into version control.
 flutter_plugin_android_lifecycle=/home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.4/
+geocoding=/home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/geocoding-2.0.1/
 google_maps_flutter=/home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-2.0.11/
 google_maps_flutter_web=/home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_web-0.3.2/
+location=/home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/location-4.3.0/
+location_web=/home/dka/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/location_web-3.1.1/

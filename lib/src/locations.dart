@@ -8,8 +8,8 @@ part 'locations.g.dart';
 @JsonSerializable()
 class LatLng {
   LatLng({
-    required this.lat,
-    required this.lng,
+    this.lat,
+    this.lng,
   });
 
   factory LatLng.fromJson(Map<String, dynamic> json) => _$LatLngFromJson(json);
@@ -22,10 +22,10 @@ class LatLng {
 @JsonSerializable()
 class Region {
   Region({
-    required this.coords,
-    required this.id,
-    required this.name,
-    required this.zoom,
+    this.coords,
+    this.id,
+    this.name,
+    this.zoom,
   });
 
   factory Region.fromJson(Map<String, dynamic> json) => _$RegionFromJson(json);
@@ -40,14 +40,14 @@ class Region {
 @JsonSerializable()
 class Office {
   Office({
-    required this.address,
-    required this.id,
-    required this.image,
-    required this.lat,
-    required this.lng,
-    required this.name,
-    required this.phone,
-    required this.region,
+    this.address,
+    this.id,
+    this.image,
+    this.lat,
+    this.lng,
+    this.name,
+    this.phone,
+    this.region,
   });
 
   factory Office.fromJson(Map<String, dynamic> json) => _$OfficeFromJson(json);
@@ -66,8 +66,8 @@ class Office {
 @JsonSerializable()
 class Locations {
   Locations({
-    required this.offices,
-    required this.regions,
+    this.offices,
+    this.regions,
   });
 
   factory Locations.fromJson(Map<String, dynamic> json) => _$LocationsFromJson(json);
