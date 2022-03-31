@@ -9,7 +9,7 @@ class MainButton extends StatelessWidget {
   final Color color;
   final double size;
 
-  MainButton({required this.title, this.height = 30.0, required this.onTap, required this.icon, required this.color, this.size = 123.0});
+  MainButton({required this.title, this.height = 30.0, required this.onTap, required this.icon, required this.color, this.size = 200.0});
 
   @override
   Widget build(BuildContext context) {
