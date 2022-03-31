@@ -27,7 +27,7 @@ class _HomeUIState extends State<HomeUI> {
           child: Column(
             children: [
               MainButton(title: "Open the map", onTap: () async {}, icon: Icons.map_outlined, color: Colors.greenAccent),
-              SizedBox(width: 10.0),
+              SizedBox(width: 20.0),
               MainButton(title: "Open the dialog", onTap: () async {}, icon: Icons.chrome_reader_mode_outlined, color: Colors.greenAccent),
             ],
           ),
