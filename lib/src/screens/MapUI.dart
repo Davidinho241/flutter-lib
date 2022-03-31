@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'https://flutlab.io/root/app/lib/src/locations.dart' as locations;
+import '../src/locations.dart' as locations;
 
 class MapUI extends StatefulWidget {
   const MapUI({Key? key}) : super(key: key);
