@@ -44,23 +44,25 @@ class _HomeUIState extends State<HomeUI> {
                   icon: Icons.map_outlined,
                   color: Colors.greenAccent),
               SizedBox(height: 20.0),
-              Material(
-                child: Wrap(children: [
-                  MainButton(
-                      title: "Open the card",
-                      onTap: () async {
-                        showDialog(
-                            context: context,
-                            builder: (BuildContext context) {
-                              return new BestOfferCards(
-                                onTap: null,
-                              );
-                            });
-                      },
-                      icon: Icons.chrome_reader_mode_outlined,
-                      color: Colors.greenAccent),
-                ]),
-              )
+              MainButton(
+                  title: "Open the card",
+                  onTap: () async {
+                    showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return new Material(
+                            child: Wrap(
+                              children: [
+                                BestOfferCards(
+                                  onTap: null,
+                                )
+                              ],
+                            ),
+                          );
+                        });
+                  },
+                  icon: Icons.chrome_reader_mode_outlined,
+                  color: Colors.greenAccent),
             ],
           ),
         ),
