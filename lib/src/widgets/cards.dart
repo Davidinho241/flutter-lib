@@ -50,8 +50,11 @@ class BestOfferCards extends StatelessWidget {
                     Text(
                       "Name",
                       style: TextStyle(
-                        fontWeight: FontWeight.w600,
+                        fontWeight: FontWeight.w800,
                       ),
+                    ),
+                    SizedBox(
+                      height: 10.0,
                     ),
                     Text(
                       "description",
