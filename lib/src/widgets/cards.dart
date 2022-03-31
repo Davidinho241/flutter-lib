@@ -90,13 +90,6 @@ class BestOfferCards extends StatelessWidget {
                             onPressed: null),
                         IconButton(
                             icon: Icon(
-                              FlutterIcons.food_variant_mco,
-                              size: 15.0,
-                              color: Colors.grey,
-                            ),
-                            onPressed: null),
-                        IconButton(
-                            icon: Icon(
                               FlutterIcons.wifi_faw5s,
                               size: 15.0,
                               color: Colors.grey,
