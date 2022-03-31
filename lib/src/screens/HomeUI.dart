@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'https://flutlab.io/root/app/lib/src/widgets/buttons.dart';
+import '../widgets/buttons.dart';
 
 class HomeUI extends StatefulWidget {
   const HomeUI({Key? key}) : super(key: key);

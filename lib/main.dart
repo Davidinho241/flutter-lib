@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'https://flutlab.io/root/app/lib/src/screens/HomeUI.dart';
+import 'src/screens/HomeUI.dart';
 
 void main() {
   runApp(App());
