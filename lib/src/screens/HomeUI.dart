@@ -49,6 +49,7 @@ class _HomeUIState extends State<HomeUI> {
                   onTap: () async {
                     showModalBottomSheet(
                         context: context,
+                        backgroundColor: const Color(0xFFFFFFFF),
                         builder: (BuildContext context) {
                           return new Material(
                             child: Wrap(
