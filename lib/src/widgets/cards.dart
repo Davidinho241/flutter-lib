@@ -8,100 +8,102 @@ class BestOfferCards extends StatelessWidget {
   BestOfferCards({this.onTap});
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsets.fromLTRB(20.0, 0, 20.0, 20.0),
-      decoration: BoxDecoration(
-        color: Theme.of(context).cardColor,
-        borderRadius: BorderRadius.all(
-          Radius.circular(15.0),
-        ),
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.start,
-        // crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Container(
-            width: 120.0,
-            height: 120.0,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(15.0),
-                bottomLeft: Radius.circular(15.0),
-              ),
-              image: DecorationImage(
-                image: NetworkImage(
-                  "https://ecomatin.net/wp-content/uploads/2018/10/ecomatin.net-reamenagement-la-poste-centrale-va-refaire-peau-neuve-poste-centrale-780x405.jpg",
-                ),
-                fit: BoxFit.cover,
-              ),
-            ),
+    return Wrap(children: [
+      Container(
+        margin: EdgeInsets.fromLTRB(20.0, 0, 20.0, 20.0),
+        decoration: BoxDecoration(
+          color: Theme.of(context).cardColor,
+          borderRadius: BorderRadius.all(
+            Radius.circular(15.0),
           ),
-          SizedBox(width: 10.0),
-          Expanded(
-            flex: 1,
-            child: Container(
-              padding: EdgeInsets.only(right: 10.0),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text(
-                    "Name",
-                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18.0),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          // crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Container(
+              width: 120.0,
+              height: 120.0,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(15.0),
+                  bottomLeft: Radius.circular(15.0),
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://ecomatin.net/wp-content/uploads/2018/10/ecomatin.net-reamenagement-la-poste-centrale-va-refaire-peau-neuve-poste-centrale-780x405.jpg",
                   ),
-                  SizedBox(
-                    height: 10.0,
-                  ),
-                  Text(
-                    "description",
-                    style: TextStyle(
-                      color: Colors.grey,
-                      fontSize: 12.0,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 10.0,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      IconButton(
-                          icon: Icon(
-                            FlutterIcons.swimmer_faw5s,
-                            size: 15.0,
-                            color: Colors.grey,
-                          ),
-                          onPressed: null),
-                      IconButton(
-                          icon: Icon(
-                            FlutterIcons.smoking_ban_faw5s,
-                            size: 15.0,
-                            color: Colors.grey,
-                          ),
-                          onPressed: null),
-                      IconButton(
-                          icon: Icon(
-                            FlutterIcons.parking_faw5s,
-                            size: 15.0,
-                            color: Colors.grey,
-                          ),
-                          onPressed: null),
-                      IconButton(
-                          icon: Icon(
-                            FlutterIcons.wifi_faw5s,
-                            size: 15.0,
-                            color: Colors.grey,
-                          ),
-                          onPressed: null),
-                    ],
-                  )
-                ],
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
-          )
-        ],
-      ),
-    );
+            SizedBox(width: 10.0),
+            Expanded(
+              flex: 1,
+              child: Container(
+                padding: EdgeInsets.only(right: 10.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      "Name",
+                      style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18.0),
+                    ),
+                    SizedBox(
+                      height: 10.0,
+                    ),
+                    Text(
+                      "description",
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 12.0,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 10.0,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        IconButton(
+                            icon: Icon(
+                              FlutterIcons.swimmer_faw5s,
+                              size: 15.0,
+                              color: Colors.grey,
+                            ),
+                            onPressed: null),
+                        IconButton(
+                            icon: Icon(
+                              FlutterIcons.smoking_ban_faw5s,
+                              size: 15.0,
+                              color: Colors.grey,
+                            ),
+                            onPressed: null),
+                        IconButton(
+                            icon: Icon(
+                              FlutterIcons.parking_faw5s,
+                              size: 15.0,
+                              color: Colors.grey,
+                            ),
+                            onPressed: null),
+                        IconButton(
+                            icon: Icon(
+                              FlutterIcons.wifi_faw5s,
+                              size: 15.0,
+                              color: Colors.grey,
+                            ),
+                            onPressed: null),
+                      ],
+                    )
+                  ],
+                ),
+              ),
+            )
+          ],
+        ),
+      )
+    ]);
   }
 }
 

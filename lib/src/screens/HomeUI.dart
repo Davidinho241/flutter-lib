@@ -51,12 +51,8 @@ class _HomeUIState extends State<HomeUI> {
                         context: context,
                         backgroundColor: const Color(0xFFFFFF),
                         builder: (BuildContext context) {
-                          return new Wrap(
-                            children: [
-                              BestOfferCards(
-                                onTap: null,
-                              )
-                            ],
+                          return new BestOfferCards(
+                            onTap: null,
                           );
                         });
                   },
