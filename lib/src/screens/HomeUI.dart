@@ -47,7 +47,7 @@ class _HomeUIState extends State<HomeUI> {
               MainButton(
                   title: "Open the card",
                   onTap: () async {
-                    showDialog(
+                    showModalBottomSheet(
                         context: context,
                         builder: (BuildContext context) {
                           return new Material(
