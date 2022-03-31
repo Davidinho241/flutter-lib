@@ -19,6 +19,9 @@ class _HomeUIState extends State<HomeUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Home'),
+      ),
       key: _scaffoldKey,
       body: Container(
         alignment: Alignment.center,
