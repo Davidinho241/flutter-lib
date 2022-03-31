@@ -51,8 +51,12 @@ class _HomeUIState extends State<HomeUI> {
                         context: context,
                         builder: (BuildContext context) {
                           return new Material(
-                            child: BestOfferCards(
-                              onTap: null,
+                            child: Wrap(
+                              children: [
+                                BestOfferCards(
+                                  onTap: null,
+                                )
+                              ],
                             ),
                           );
                         });
