@@ -21,7 +21,7 @@ class _HomeUIState extends State<HomeUI> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home'),
+        title: const Text('Home Lib'),
         backgroundColor: Colors.red[700],
       ),
       key: _scaffoldKey,
