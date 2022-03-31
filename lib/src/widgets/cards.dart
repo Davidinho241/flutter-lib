@@ -23,7 +23,7 @@ class BestOfferCards extends StatelessWidget {
           // crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Container(
-              width: 100.0,
+              width: 120.0,
               height: 120.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
