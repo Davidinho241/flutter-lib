@@ -35,7 +35,7 @@ class _MapUIState extends State<MapUI> {
       home: Scaffold(
         appBar: AppBar(
           leading: IconButton(
-            onPressed: () => Navigator.pop(context, wallets),
+            onPressed: () => Navigator.pop(context),
             icon: Icon(Icons.arrow_back_ios),
           ),
           title: const Text('Google Map'),
