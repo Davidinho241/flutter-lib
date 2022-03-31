@@ -37,7 +37,7 @@ class _HomeUIState extends State<HomeUI> {
                   onTap: () async {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => MapUI()),
+                      MaterialPageRoute(builder: (context) => const MapUI()),
                     );
                   },
                   icon: Icons.map_outlined,
