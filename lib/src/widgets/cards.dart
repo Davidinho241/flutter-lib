@@ -67,31 +67,41 @@ class BestOfferCards extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
-                        Icon(
-                          FlutterIcons.swimmer_faw5s,
-                          size: 15.0,
-                          color: Colors.grey,
-                        ),
-                        Icon(
-                          FlutterIcons.smoking_ban_faw5s,
-                          size: 15.0,
-                          color: Colors.grey,
-                        ),
-                        Icon(
-                          FlutterIcons.parking_faw5s,
-                          size: 15.0,
-                          color: Colors.grey,
-                        ),
-                        Icon(
-                          FlutterIcons.food_variant_mco,
-                          size: 15.0,
-                          color: Colors.grey,
-                        ),
-                        Icon(
-                          FlutterIcons.wifi_faw5s,
-                          size: 15.0,
-                          color: Colors.grey,
-                        ),
+                        IconButton(
+                            icon: Icon(
+                              FlutterIcons.swimmer_faw5s,
+                              size: 15.0,
+                              color: Colors.grey,
+                            ),
+                            onPressed: null),
+                        IconButton(
+                            icon: Icon(
+                              FlutterIcons.smoking_ban_faw5s,
+                              size: 15.0,
+                              color: Colors.grey,
+                            ),
+                            onPressed: null),
+                        IconButton(
+                            icon: Icon(
+                              FlutterIcons.parking_faw5s,
+                              size: 15.0,
+                              color: Colors.grey,
+                            ),
+                            onPressed: null),
+                        IconButton(
+                            icon: Icon(
+                              FlutterIcons.food_variant_mco,
+                              size: 15.0,
+                              color: Colors.grey,
+                            ),
+                            onPressed: null),
+                        IconButton(
+                            icon: Icon(
+                              FlutterIcons.wifi_faw5s,
+                              size: 15.0,
+                              color: Colors.grey,
+                            ),
+                            onPressed: null),
                       ],
                     )
                   ],
