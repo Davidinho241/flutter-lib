@@ -60,39 +60,6 @@ class BestOfferCards extends StatelessWidget {
                         fontSize: 12.0,
                       ),
                     ),
-                    Container(height: 5.0),
-                    RichText(
-                      text: TextSpan(
-                        text: '',
-                        style: Theme.of(context).textTheme.subtitle1,
-                        children: <TextSpan>[
-                          TextSpan(
-                            text: ' /' + "Name",
-                            style: TextStyle(
-                              fontSize: 10.0,
-                              color: Colors.redAccent,
-                              decoration: TextDecoration.lineThrough,
-                              decorationStyle: TextDecorationStyle.solid,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    RichText(
-                      text: TextSpan(
-                        text: '',
-                        style: Theme.of(context).textTheme.subtitle1,
-                        children: <TextSpan>[
-                          TextSpan(
-                            text: ' /' + "subtitle",
-                            style: TextStyle(
-                              fontSize: 10.0,
-                              color: Colors.grey,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
                     SizedBox(
                       height: 10.0,
                     ),
