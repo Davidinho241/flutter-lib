@@ -50,8 +50,14 @@ class _HomeUIState extends State<HomeUI> {
                     showDialog(
                         context: context,
                         builder: (BuildContext context) {
-                          return new BestOfferCards(
-                            onTap: null,
+                          return new Material(
+                            child: Wrap(
+                              children: [
+                                BestOfferCards(
+                                  onTap: null,
+                                )
+                              ],
+                            ),
                           );
                         });
                   },
