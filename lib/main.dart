@@ -12,6 +12,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Lib',
       home: HomeUI(),
+      theme: ThemeData(brightness: Brightness.dark, primaryColor: Colors.greenAccent),
       debugShowCheckedModeBanner: false,
     );
   }
