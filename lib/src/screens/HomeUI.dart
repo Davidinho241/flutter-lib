@@ -21,6 +21,7 @@ class _HomeUIState extends State<HomeUI> {
     return Scaffold(
       key: _scaffoldKey,
       body: Container(
+        alignment: Alignment.center,
         height: double.maxFinite,
         child: SingleChildScrollView(
           padding: EdgeInsets.all(8.0),
