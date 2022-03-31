@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../widgets/buttons.dart';
+import '../widgets/cards.dart';
 import 'MapUI.dart';
 
 class HomeUI extends StatefulWidget {
@@ -49,9 +50,8 @@ class _HomeUIState extends State<HomeUI> {
                     showDialog(
                         context: context,
                         builder: (BuildContext context) {
-                          return new AlertDialog(
-                            title: new Text("My Super title"),
-                            content: new Text("Hello World"),
+                          return new BestOfferCards(
+                            onTap: null,
                           );
                         });
                   },
