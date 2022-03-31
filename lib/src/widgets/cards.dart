@@ -49,9 +49,7 @@ class BestOfferCards extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       "Name",
-                      style: TextStyle(
-                        fontWeight: FontWeight.w800,
-                      ),
+                      style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18.0),
                     ),
                     SizedBox(
                       height: 10.0,
