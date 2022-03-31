@@ -43,7 +43,7 @@ class _HomeUIState extends State<HomeUI> {
                   icon: Icons.map_outlined,
                   color: Colors.greenAccent),
               SizedBox(height: 20.0),
-              MainButton(title: "Open the dialog", onTap: () async {}, icon: Icons.chrome_reader_mode_outlined, color: Colors.greenAccent),
+              MainButton(title: "Open the card", onTap: () async {}, icon: Icons.chrome_reader_mode_outlined, color: Colors.greenAccent),
             ],
           ),
         ),
