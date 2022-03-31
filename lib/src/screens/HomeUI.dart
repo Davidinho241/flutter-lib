@@ -21,6 +21,10 @@ class _HomeUIState extends State<HomeUI> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          onPressed: () => Navigator.pop(context, wallets),
+          icon: Icon(Icons.arrow_back_ios),
+        ),
         title: const Text('Home'),
         backgroundColor: Colors.red[700],
       ),
