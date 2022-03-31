@@ -22,6 +22,7 @@ class _HomeUIState extends State<HomeUI> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
+        backgroundColor: Colors.red[700],
       ),
       key: _scaffoldKey,
       body: Container(
